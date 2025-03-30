@@ -4,8 +4,7 @@
 - So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
 - So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
 
-![Screenshot From 2025-03-25 03-46-22](https://github.com/user-attachments/assets/5f4807b0-274e-49d3-88ea-43c5db843a61)
-
+![Screenshot From 2025-03-30 17-17-11](https://github.com/user-attachments/assets/b06a36d0-eb56-45b8-8252-122d0d253100)
 
 # Credits
 
