@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "aquarium",
+  theme = "chocolate",
   hl_override = {
     -- Normal = {
     --   bg = "#1B1B29", -- replace with your preferred hex color
@@ -21,8 +21,8 @@ M.base46 = {
 
 M.ui = {
   statusline = {
-    -- theme = "vscode_colored", -- Set statusline to rounded
-    separator_style = "round",
+    theme = "vscode_colored", -- Set statusline to rounded
+    -- separator_style = "round",
   },
   cmp = {
     style = "atom_colored",

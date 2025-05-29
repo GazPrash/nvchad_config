@@ -2,6 +2,12 @@
 
 local plugins = {
   {
+    "nvim-treesitter/nvim-treesitter",
+    opts = function(_, opts)
+      opts.indent = { enable = false }
+    end,
+  },
+  {
     "NeogitOrg/neogit",
     lazy = false,
     dependencies = { "nvim-lua/plenary.nvim" }, -- Neogit requires plenary.nvim
@@ -87,7 +93,7 @@ local plugins = {
         ft = { "markdown", "Avante" },
       },
     },
-  }
+  },
 }
 
 return plugins
